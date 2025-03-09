@@ -9,7 +9,7 @@ class Mineral(BaseModel):
     id: int
     name: str
     chemical_composition: str
-    hardness: float  # mohs scale
+    hardness: float  # Mohs scale
     origin: str
     color: Optional[str] = None
     rarity: Optional[str] = None

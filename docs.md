@@ -3,7 +3,7 @@
 API for managing and querying mineral information with filtering and statistics.
 
 ## Base URL
-`http://localhost:8000`
+`https://mineralapi.mzums.hackclub.app/'
 
 ## Endpoints
 
@@ -197,11 +197,11 @@ pip install fastapi uvicorn
 
 2. Run server:
 ```bash
-uvicorn filename:app --reload
+uvicorn main:app --reload
 ```
 
 3. Access docs at:  
-`http://localhost:8000/docs`
+`https://mineralapi.mzums.hackclub.app/docs`
 
 ---
 
